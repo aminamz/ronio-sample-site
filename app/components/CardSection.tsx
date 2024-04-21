@@ -42,7 +42,7 @@ export default async function CardSection({ category }: CardSectionProp) {
     >
       <h1 className={styles.title}>{category.faTitle}</h1>
       {data.map((item) => (
-        <Card item={item} />
+        <Card key={item.id} item={item}/>
       ))}
     </div>
   );

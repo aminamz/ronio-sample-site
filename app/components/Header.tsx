@@ -33,9 +33,11 @@ export default function Header() {
     >
       <nav className="flex justify-between max-w-5xl w-full">
         <div className="flex flex-row gap-2 items-center">
-          <div className={styles.logo}>
-            <Image className={styles.ico} src={icon} alt="Ronio" />
-            <span>رونیو</span>
+          <div>
+            <Link href="/" className={styles.logo}>
+              <Image className={styles.ico} src={icon} alt="Ronio" />
+              <span>رونیو</span>
+            </Link>
           </div>
           <div className="flex flex-row gap-2">
             <Link href="./">وبلاگ</Link>
