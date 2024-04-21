@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "palette",
+      "faTitle": "پالت‌ها",
+      "ukTitle": "Palettes"
+    },
+    {
+      "id": 2,
+      "name": "tools",
+      "faTitle": "ابزارها",
+      "ukTitle": "Tools"
+    }
+  ],
+  "palette": [
+    {
+      "id": 1,
+      "cat": 1,
+      "name": "color",
+      "faTitle": "پالت رنگی",
+      "ukTitle": "Colored Palette",
+      "isAvail": true,
+      "image": "color"
+    },
+    {
+      "id": 2,
+      "cat": 1,
+      "name": "gradient",
+      "faTitle": "پالت گرادینت",
+      "ukTitle": "Gradient Palette",
+      "isAvail": true,
+      "image": "gradient"
+    },
+    {
+      "id": 3,
+      "cat": 1,
+      "name": "mesh",
+      "faTitle": "پالت مش",
+      "ukTitle": "Meshed Palette",
+      "isAvail": true,
+      "image": "mesh"
+    },
+    {
+      "id": 4,
+      "cat": 1,
+      "name": "material",
+      "faTitle": "پالت متریال دیزاین",
+      "ukTitle": "Material Design Palette",
+      "isAvail": true,
+      "image": "material"
+    }
+  ],
+  "tools": [
+    {
+      "id": 1,
+      "cat": 2,
+      "name": "gradient-generator",
+      "faTitle": "گرادینت ساز",
+      "ukTitle": "Gradient Generator",
+      "isAvail": true,
+      "image": "gradientGen"
+    },
+    {
+      "id": 2,
+      "cat": 2,
+      "name": "mesh-generator",
+      "faTitle": "مش ساز",
+      "ukTitle": "Mesh Generator",
+      "isAvail": true,
+      "image": "meshGen"
+    },
+    {
+      "id": 1,
+      "cat": 3,
+      "name": "colorpicker",
+      "faTitle": "استخراج رنگ",
+      "ukTitle": "Color Picker",
+      "isAvail": true,
+      "image": "colorPick"
+    },
+    {
+      "id": 1,
+      "cat": 4,
+      "name": "colorDetect",
+      "faTitle": "رنگ شناس",
+      "ukTitle": "Color Detecting",
+      "isAvail": false,
+      "image": "colorDete"
+    }
+  ]
+}

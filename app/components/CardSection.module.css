@@ -1,0 +1,32 @@
+.border {
+  border-radius: 10px;
+  position: relative;
+  background-image: linear-gradient(90deg, #808080 50%, transparent 50%),
+    linear-gradient(90deg, #808080 50%, transparent 50%),
+    linear-gradient(0deg, #808080 50%, transparent 50%),
+    linear-gradient(0deg, #808080 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 18px 2px, 18px 2px, 2px 18px, 2px 18px;
+  background-position: left top, right bottom, left bottom, right top;
+  animation: borderAnimation 0.75s infinite linear;
+}
+
+.title {
+  position: absolute;
+  top: -1.5rem;
+  right: 1.5rem;
+  font-weight: 700px;
+  font-size: 2rem;
+  padding: 0 0.5rem;
+  background-color: hsl(var(--background));
+}
+@keyframes borderAnimation {
+  0% {
+    background-position: left top, right bottom, left bottom, right top;
+  }
+
+  to {
+    background-position: left 18px top, right 18px bottom, left bottom 18px,
+      right top 18px;
+  }
+}

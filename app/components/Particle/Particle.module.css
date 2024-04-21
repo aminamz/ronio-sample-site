@@ -1,0 +1,14 @@
+.canvas {
+  height: 80vh;
+  width: 80vw;
+  text-align: center;
+  position: relative;
+}
+.title {
+  font-weight: 600;
+  font-size: 26px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  place-items: center;
+}

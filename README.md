@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is Sample First Page of https://ronio.ir website which Created in Next.js Platform,
 
-## Getting Started
+All Data for This Project are fetch from Json Server and Static Data that response from internal api routing System.
+The dark and light theme is Also availible in this project. feel free to use specfied color in global.css or add Your Customize Color for both light and dark theme.
 
-First, run the development server:
+#How_To_Run
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone Repository from Github with this Link: https://github.com/aminamz/ronio-sample-site.git
+2. Install Dependencies from Package.json using following Code in terminal
+   ##-> npm install
+3. Run Json Server for fetching categories Data using following Code in terminal
+   ##-> npm run json
+4. run Project in Developing Mode using Following Code in terminal
+   ##-> npm run dev
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#technologies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This Project Using
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. json-server
+2. tailwind
+3. typescript
+4. three.js

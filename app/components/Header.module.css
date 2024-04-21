@@ -1,0 +1,41 @@
+.lang {
+  border: none;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.lang:hover {
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 1rem;
+  vertical-align: middle;
+}
+.logo span {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.ico {
+  width: 40px;
+  height: 40px;
+}
+
+.scroll {
+  position: fixed;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  border-radius: 15px;
+  padding: 0.5rem;
+  outline: 2px solid #d6d6d6;
+  backdrop-filter: blur(4rem);
+  transition: width 3s ease-in-out;
+}
